@@ -1,12 +1,14 @@
 .popular-foods {
     padding: 64px;
+
     display: flex;
     flex-direction: column;
+
     background-color: var(--primary-color);
     background-image: url("../../assets/popular_bg.png");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
 
     overflow: hidden;
 }
@@ -101,7 +103,6 @@
     object-fit: contain;
 
     margin-left: 21px;
-
 }
 
 .popular-foods__card {
@@ -193,5 +194,5 @@
 
 .popular-foods__card.active-card .popular-foods__card-price {
     font-size: 24px;
-    color: var(--secondary-color);
+    color: var(--secondary-color)
 }
